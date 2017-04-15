@@ -17,6 +17,7 @@ import { ContactComponent } from './contact/contact.component';
 import {HelloWorldComponent} from "./hello-world/hello-world.component";
 import {OurTeamComponent} from "./our-team/our-team.component";
 import {ForEachComponent} from "./for-each/for-each.component";
+import {OutSourceComponent} from "./out-source/out-source.component";
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import {ForEachComponent} from "./for-each/for-each.component";
     ContactComponent,
     HelloWorldComponent,
     OurTeamComponent,
-    ForEachComponent
+    ForEachComponent,
+    OutSourceComponent
   ],
   imports: [
     BrowserModule,
